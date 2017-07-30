@@ -1,11 +1,16 @@
 {{ partial "head" . }}
   <div class="inner">
     <main>
-      <h1>{{ .Title }}</h1>
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
+      <a href="/" class="paulstraw">
+        <img src="/paulstraw.png" alt="Paul Straw">
+      </a>
 
-      {{ .Content }}
+      <h1 class="post-title">{{ .Title }}</h1>
+      <p class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+
+      <div class="post-content">
+        {{ .Content }}
+      </div>
     </main>
   </div>
 {{ partial "footer" . }}

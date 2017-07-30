@@ -1,14 +1,7 @@
-<div class="bg-off-white pv4">
-  <div class="ph3 mw7 center">
-
-    <h2 class="f2 b lh-title mb3">Latest stories</h1>
-
-    <div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
-      {{ range where .Data.Pages "Type" "post" }}
-        <div class="ph1-ns w-50-ns flex">
-          {{ .Render "li" }}
-        </div>
-      {{ end }}
+<div class="inner">
+  {{ range .Data.Pages }}
+    <div class="ph1-ns w-50-ns flex">
+      {{ .Render "li" }}
     </div>
-  </div>
+  {{ end }}
 </div>
