@@ -25,3 +25,4 @@ Or maybe, _just maybe_, she was presenting herself on social media as a happy, w
 The primary sentiment tying these arguments together is that they all imply a minimum amount of suffering someone must go through before they "qualify" for our sympathy. They reek of Regan-era "welfare queen" scare tactics, projecting our own privileges onto others, and a form of localized xenophobia.
 
 These attitudes are quickly pushing us towards a monoculture, even faster than we're already headed there. Personally, I want the Bay Area to become a _more_ inclusive and diverse place over the upcoming years and decades. To have any hope of that happening, we need to stop discounting the suffering of others.
+
