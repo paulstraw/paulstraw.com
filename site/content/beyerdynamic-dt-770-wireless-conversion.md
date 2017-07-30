@@ -14,7 +14,7 @@ After searching around for a while, I decided to use this [Philmore](https://www
 
 ![Left to right, with ground wire at rear: right, ground, left.](/img/IMG_2685.jpg)
 
-The DT 770 wires are coated in an insulating material. I burned this off the ends using a lighter so I could solder them to the jack terminals.
+The DT 770 wires are coated in an insulating material. I burned this off the ends of each wire using a lighter so I could solder them to the jack terminals.
 
 Once the headphone was disassembled ([disassembly video here](https://www.youtube.com/watch?v=MBEew8Sa-i8)), I drilled a 3/8” hole where the original cable came out, and the jack popped right into place.
 
