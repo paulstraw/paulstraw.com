@@ -2,7 +2,7 @@
 title: Beyerdynamic DT 770 Wireless Conversion
 date: 2017-07-30T05:24:26.076Z
 ---
-I'm a big fan of flat, accurate headphones. In my opinion, Beyerdynamic's DT 770 are some of the best in the world. They provide excellent sound isolation, and a faithful reproduction of just about every genre of music.
+I'm a big fan of flat, accurate headphones. In my opinion, Beyerdynamic's DT 770 are some of the best in the world. They provide excellent sound isolation, and a faithful reproduction of every music genre.
 
 I've had my 770s for something like seven years. They are durable and comfortable, but their reliance on a wired connection now makes them difficult to use in many cases. You might assume that the iPhone 7's lack of a headphone jack was behind this, but it was mostly prompted by trying to work on a laptop on the couch.
 
