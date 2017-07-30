@@ -1,3 +1,11 @@
 {{ partial "head" . }}
-  {{ .Content }}
+  <div class="inner">
+    <main>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+      <p>Read in {{ .ReadingTime }} minutes</p>
+
+      {{ .Content }}
+    </main>
+  </div>
 {{ partial "footer" . }}
