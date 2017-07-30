@@ -1,6 +1,6 @@
 ---
 title: You Must Be This Sad to Enter
-date: 02/25/2016 11:44 PM
+date: 2016-02-25
 ---
 By now, you've almost certainly read the [open letter](https://medium.com/@taliajane/an-open-letter-to-my-ceo-fb73df021e7a) written by Talia Jane to the CEO of Yelp. If you're reading this, there's actually a good chance I've talked to you about it directly. It seems to keep coming up, and I wanted to write down my thoughts on some of the arguments I've seen raised against Talia.
 

@@ -1,6 +1,6 @@
 ---
 title: ViewMaster
-date: 08/30/2014 10:42 PM
+date: 2014-08-30
 ---
 I'm happy to announce that my first Mac App Store app has been approved and released to the public! It's a simple menu bar app that shows you the current status and viewer count of a Twitch stream. I created it over the course of a couple days using [RubyMotion](http://rubymotion.com), and far too much time tweaking the icon.
 

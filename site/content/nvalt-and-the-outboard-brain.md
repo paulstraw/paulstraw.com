@@ -1,6 +1,6 @@
 ---
 title: nvALT and the Outboard Brain
-date: 02/06/2015 10:41 PM
+date: 2015-02-06
 ---
 I have to remember a lot of stuff. If you work with computers, you probably do too. Cory Doctorow popularized the concept of the "[Outboard Brain](http://archive.oreilly.com/pub/a/javascript/2002/01/01/cory.html)" a long time ago, and it's still a valid concept. While Cory's approach was based around blogging, mine has used a simple program called [nvALT](http://brettterpstra.com/projects/nvalt/) for the last several years.
 

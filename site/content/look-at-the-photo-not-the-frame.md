@@ -1,6 +1,6 @@
 ---
 title: 'Look at the Photo, Not the Frame'
-date: 10/04/2013 10:43 PM
+date: 2013-10-04
 ---
 I work with an extremely talented design team, all of whom are unhappy with iOS 7's new design direction. While I agree there are some rough edges, overall I think the changes will ultimately be for the best, as designers and developers (including Apple's own) learn to work with the new concepts and design language.
 

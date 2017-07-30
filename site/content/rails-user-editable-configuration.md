@@ -1,6 +1,6 @@
 ---
 title: Rails User-Editable Configuration
-date: 02/06/2015 10:33 PM
+date: 2015-02-06
 ---
 When building out a Rails site with a large admin interface, you'll eventually need to add some system settings that don't relate specifically to any model. This is an Interesting Problem™, because ActiveRecord ties everything in the database to a model. I've recently started using the pattern of a GlobalConfig model to get around this.
 

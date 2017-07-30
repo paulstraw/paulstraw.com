@@ -1,6 +1,6 @@
 ---
 title: Bowers & Wilkins P5 Series 2 Review
-date: 11/18/2015 11:26 PM
+date: 2015-11-18
 ---
 These are really comfortable headphones, and that’s coming from someone who usually can’t stand on-ears. They’re quite visually appealing as well, and seem like the perfect size for walking around (I bought them for commuting and work). Isolation is decent, but still lets enough ambient sound in to keep you aware of the environment (another point in the “walking around cans” column).
 

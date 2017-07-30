@@ -1,6 +1,6 @@
 ---
 title: Mouth Noises
-date: 05/02/2016 11:17 PM
+date: 2016-05-02
 ---
 I am #blessed enough to be a member of the [Spec podcast network](http://spec.fm). We just hit a collective total of [5,000,000 downloads](https://twitter.com/uberbryn/status/727219434713022464), and it made me reflect a bit on what I'm trying to accomplish with [Does Not Compute](http://doesnotcompute.fm), and my work as a whole.
 

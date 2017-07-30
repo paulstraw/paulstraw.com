@@ -1,6 +1,6 @@
 ---
 title: Crockford
-date: 09/04/2016 1:59 AM
+date: 2016-09-04
 ---
 **If there is anything inaccurate or inequitable about the following post, please [email me](mailto:paulstraw@paulstraw.com) or [send me a tweet](https://twitter.com/paulstraw) to discuss it.**
 

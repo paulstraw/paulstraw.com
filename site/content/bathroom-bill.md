@@ -1,6 +1,6 @@
 ---
 title: Bathroom Bill
-date: 05/13/2016 3:55 PM
+date: 2016-05-13
 ---
 > Who the fuck is Bathroom Bill and how do we make him go away
 
