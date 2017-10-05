@@ -6,7 +6,7 @@ By now, you've almost certainly read the [open letter](https://medium.com/@talia
 
 ### If you can't afford it, don't live here
 
-To be blunt, she *doesn't*. Talia lives somewhere where it cost her nearly $6.00 one-way to get to her job. That's something like $250 a month in transit fees, in addition to her \~$1200 monthly rent. For those of you unfamiliar with the Bay Area, $1200 a month is quite cheap, even *with* roommates.
+To be blunt, she *doesn't*. When she lived in the Bay Area, it cost her nearly $6.00 one-way to get to her job. That's something like $250 a month in transit fees, in addition to her \~$1200 monthly rent. For those of you unfamiliar with the Bay Area, $1200 a month is quite cheap, even *with* roommates.
 
 There will always be people here who earn less than others, but affordable housing for all incomes *needs* to be a priority for this city. Even if you don't care whether people who earn a low wage can afford to live here (presumably because you're a horrid, short-sighted troll of a person), at least consider that those human-powered startups we all love so much are made possible by people earning similar wages.
 
