@@ -38,11 +38,28 @@ hr {
   max-width: 700px;
 }
 
+#the-lights {
+  background: #000306;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 600ms ease-out;
+}
+
+#the-lights.off {
+  opacity: 0.84;
+}
+
 #latest-episode-wrapper {
   padding: 1.5% 0 2.4%;
 }
 
 #latest-episode-wrapper .frame-wrapper {
+  z-index: 3;
   position: relative;
   box-shadow: 0 6px 28px rgba(12, 24, 36, 0.15);
 }
