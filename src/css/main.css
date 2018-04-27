@@ -48,6 +48,7 @@ hr {
   z-index: 2;
   opacity: 0;
   transition: opacity 600ms ease-out;
+  display: none;
 }
 
 #the-lights.off {
