@@ -215,13 +215,14 @@ a {
   display: inline-block;
   color: #e3e7ef;
   text-decoration: none;
+  z-index: 1;
 }
 
 a:before {
   content: "";
   background: #666d7f;
   height: 4px;
-  bottom: 2px;
+  bottom: 7px;
   z-index: -1;
   left: 0;
   right: 0;
@@ -231,6 +232,6 @@ a:before {
 }
 
 a:hover:before {
-  height: 12px;
+  height: 9px;
 }
 </style>
