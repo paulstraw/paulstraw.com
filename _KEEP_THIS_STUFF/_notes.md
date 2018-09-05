@@ -1,13 +1,8 @@
 https://github.com/paulstraw/paulstraw/blob/2e04290acafab26047803adf92873cf6b06892c6/dist/js/paulstraw.js#L2357
 
-
-* source serif pro?
-  * `<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">`
-* https://github.com/nuxt-community/modules/tree/master/packages/markdownit
-* https://nuxtjs.org/api/configuration-generate#routes
-* `npm run generate`
-* https://github.com/binbytes/nuxt-blog-module-example/
-
+* https://github.com/paulstraw/paulstraw/blob/9d3c8c11e2354ec19f1e0814a81cf5a04a23436a/src/scss/paulstraw.scss
+* http://web.archive.org/web/20161103192754/https://paulstraw.com/
+* add monkey
 
 ``` javascript
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

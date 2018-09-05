@@ -5,6 +5,15 @@
 <template>
   <article class="project-card">
     <a :href="project.url">
+      <div
+        class="logo-wrapper"
+        :style="{
+          background: project.logoBackground
+        }"
+      >
+        Logo Placeholder
+      </div>
+
       <h1>
         {{ project.title }}
         <template v-if="project.subtitle"> – <em>{{ project.subtitle }}</em></template>

@@ -31,8 +31,6 @@ export default {
 </script>
 
 <style>
-body, input, select, textarea, button { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
-
 a { -webkit-tap-highlight-color: #fff; }
 
 ::-moz-selection { background: rgba(105, 155, 192, 0.7); color: #333; }
