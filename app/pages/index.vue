@@ -48,7 +48,7 @@ export default {
           logoName: 'design-kollective',
           logoBackground: '#e86041',
           url: 'https://designkollective.com',
-          description: `Making tools to help local furniture boutiques develop and maintain a web presence. We're still a very small team, which means I do everything from frontend (Vue/Nuxt), to backend (Elixir), to writing and shooting marketing videos.`,
+          description: `Making tools to help local furniture boutiques develop and maintain a web presence. We're still a very small team, which means I do everything from product planning and design, to frontend (Vue/Nuxt), to backend (Elixir), to writing and shooting marketing videos.`,
         },
         {
           title: `Microcosm`,
@@ -94,19 +94,19 @@ export default {
           description: `Software development podcast. Co-hosted with Sean Washington for over two years and 130 episodes on the Spec podcast network.`,
         },
         {
-          title: `Shuffle NYC`,
-          logoName: 'shuffle-nyc',
-          logoBackground: '#f1efed',
-          url: 'https://shuffle.nyc',
-          description: `Apartment and classifieds newsletter app with a New York City focus. Built and launched the product from end-to-end; design and development.`,
-        },
-        {
           title: `Octopus`,
           subtitle: `Consulting Director / Partner`,
           logoName: 'octopus',
           logoBackground: '#e8e9eb',
           url: 'http://octopuscreative.com',
           description: `Development team lead, client relationship and project management, web application architecture and development.`,
+        },
+        {
+          title: `Shuffle NYC`,
+          logoName: 'shuffle-nyc',
+          logoBackground: '#f1efed',
+          url: 'https://shuffle.nyc',
+          description: `Apartment and classifieds newsletter app with a New York City focus. Built and launched the product from end-to-end; design and development.`,
         },
         {
           title: `Placemat`,

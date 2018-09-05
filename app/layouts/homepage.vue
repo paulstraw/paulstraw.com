@@ -16,7 +16,7 @@ export default {
     link: [
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Montserrat:400,400i,800',
+        href: 'https://fonts.googleapis.com/css?family=Montserrat:400,600,600i,800',
         hid: 'google-fonts-montserrat',
       },
     ],

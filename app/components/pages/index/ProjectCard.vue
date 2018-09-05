@@ -40,5 +40,18 @@ export default {
 </script>
 
 <style scoped>
+.project-card {
+  background: #fff;
+  font-size: 18px;
+}
 
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
 </style>
