@@ -137,7 +137,7 @@ export default {
         },
         {
           title: `VerifyInvestor`,
-          logoName: 'the-sketchbook-project',
+          logoName: 'verify-investor',
           url: 'https://verifyinvestor.com',
           description: `Full site buildout including payment, reviewer/investor messaging, and JavaScript image redaction/annotation tool. Initial MVP developed and launched in four weeks.`,
         },

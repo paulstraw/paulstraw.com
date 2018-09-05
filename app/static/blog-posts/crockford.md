@@ -123,5 +123,3 @@ After doing all my research, I was left a bit baffled. There still seemed to be 
 A couple hours later, I received this response:
 
 > It is a mystery to me too.
-
-

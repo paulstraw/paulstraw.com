@@ -1,5 +1,5 @@
 <docs>
-# PostLayout
+# BlogPostLayout
 </docs>
 
 <template>
@@ -16,7 +16,17 @@
 
 <script>
 export default {
-  name: 'PostLayout',
+  name: 'BlogPostLayout',
+
+  head: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Source+Serif+Pro',
+        hid: 'google-fonts-source-serif',
+      },
+    ],
+  },
 }
 </script>
 
