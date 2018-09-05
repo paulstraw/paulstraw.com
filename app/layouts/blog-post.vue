@@ -1,84 +1,26 @@
+<docs>
+# PostLayout
+</docs>
+
 <template>
   <div class="inner">
     <main>
-      <a href="/" class="paulstraw">
+      <nuxt-link to="/" class="paulstraw">
         <img src="/paulstraw.png" alt="Paul Straw">
-      </a>
+      </nuxt-link>
 
-      <h1 class="post-title">{{ .Title }}</h1>
-      <p class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-
-      <div class="post-content">
-        {{ .Content }}
-      </div>
+      <nuxt/>
     </main>
   </div>
 </template>
 
+<script>
+export default {
+  name: 'PostLayout',
+}
+</script>
+
 <style>
-.post-title {
-  margin-bottom: 0;
-  margin-top: 0.3em;
-}
-
-.post-date {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 0.72em;
-  margin-top: 0.18em;
-  margin-bottom: 3em;
-}
-
-.post-content {
-  font-size: 0.9em;
-  line-height: 1.75;
-}
-
-.paulstraw img {
-  display: inline-block;
-  margin: 1.2rem auto 0;
-  width: 32px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 body, input, select, textarea, button { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
 
 a { -webkit-tap-highlight-color: #fff; }
@@ -98,6 +40,12 @@ body {
 
 a {
   color: #699BC0;
+}
+
+.paulstraw img {
+  display: inline-block;
+  margin: 1.2rem auto 0;
+  width: 32px;
 }
 
 hr {

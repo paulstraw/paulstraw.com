@@ -4,14 +4,12 @@
   "description": "Paul Straw's personal website + playground",
   "main": "index.js",
   "scripts": {
-
+    "dev": "nuxt"
   },
   "author": "Paul Straw",
   "license": "MIT",
   "dependencies": {
-
+    "nuxt": "^1.4.2"
   },
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
