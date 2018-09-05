@@ -209,4 +209,28 @@ h2 {
   font-size: 55.5px;
   line-height: 1.1;
 }
+
+a {
+  position: relative;
+  display: inline-block;
+  color: #e3e7ef;
+  text-decoration: none;
+}
+
+a:before {
+  content: "";
+  background: #666d7f;
+  height: 4px;
+  bottom: 2px;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  display: block;
+  position: absolute;
+  transition: height 180ms ease-out;
+}
+
+a:hover:before {
+  height: 12px;
+}
 </style>

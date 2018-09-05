@@ -1,1 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body, input, select, textarea, button { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+
+
+@import './blog-post-layout';
+@import './homepage-layout';
