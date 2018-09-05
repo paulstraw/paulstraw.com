@@ -11,7 +11,9 @@
           background: project.logoBackground
         }"
       >
-        Logo Placeholder
+        <div
+          v-html="require(`~/assets/svg/project-logos/${project.logoName}.svg`)"
+        />
       </div>
 
       <h1>
@@ -31,7 +33,7 @@ export default {
   props: {
     project: {
       type: Object,
-      required: true
+      required: true,
     }
   },
 }

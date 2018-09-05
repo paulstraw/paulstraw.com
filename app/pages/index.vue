@@ -152,7 +152,7 @@ export default {
         },
         {
           title: `VerifyInvestor`,
-          logoName: 'verify-investor',
+          logoName: 'verifyinvestor',
           logoBackground: '#3C4142',
           url: 'https://verifyinvestor.com',
           description: `Full site buildout including payment, reviewer/investor messaging, and JavaScript image redaction/annotation tool. Initial MVP developed and launched in four weeks.`,

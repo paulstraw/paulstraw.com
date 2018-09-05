@@ -3,6 +3,7 @@ https://github.com/paulstraw/paulstraw/blob/2e04290acafab26047803adf92873cf6b068
 * https://github.com/paulstraw/paulstraw/blob/9d3c8c11e2354ec19f1e0814a81cf5a04a23436a/src/scss/paulstraw.scss
 * http://web.archive.org/web/20161103192754/https://paulstraw.com/
 * test monkey
+* test resume
 
 ``` javascript
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
