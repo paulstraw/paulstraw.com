@@ -13,7 +13,7 @@ This page currently acts as a portfolio.
       </header>
 
       <article>
-        <p>If you want to get in touch, you can reach out via email at <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Here are some of the things I've made, and some of the companies I've worked with:</p>
+        <p>If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Here are some of the things I've made, and some of the companies I've worked with:</p>
       </article>
     </div>
 
@@ -74,7 +74,7 @@ export default {
         {
           title: `Nybble`,
           logoName: 'nybble',
-          logoBackground: '#3fb7c3',
+          logoBackground: '#5dd89f',
           url: 'https://paulstraw.itch.io/nybble',
           description: `A fun, impractical, blocky typeface. I made Nybble for use as a headline font in my own games and designs. It's a public domain release, click to learn more and download it.`,
         },
