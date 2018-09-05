@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Nestnotes Start</title>
+    <meta name="description" content="Important/useful Nestnotes links.">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <style type="text/css">
+      body, input, select, textarea, button {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 21px;
+      }
+
+      body {
+        color: #333;
+      }
+
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding-top: 10vh;
+      }
+
+      section {
+        width: 300px;
+        margin: 0 10px;
+        float: left;
+      }
+
+      section h1 {
+        margin-bottom: 0.5em;
+      }
+
+      ul {
+        list-style: none;
+        margin-top: 0;
+        padding-left: 0;
+      }
+
+      li {
+        line-height: 1.2;
+        margin-bottom: 0.6em;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+        transition: all 150ms ease-out;
+      }
+
+      a:hover {
+        color: #699BC0;
+      }
+
+      code {
+        display: inline-block;
+        padding: 0 0.3em;
+        background: #F5F5F5;
+        border-radius: 2px;
+        font-size: 0.7619047619em;
+      }
+
+      code, pre {
+        font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+      }
+
+      .reports {
+        clear: both;
+        padding-top: 6vh;
+        margin: 0 10px;
+      }
+
+      .service .light {
+        width: 21px;
+        height: 21px;
+        border-radius: 21px;
+        background: #ccc;
+        float: left;
+        margin-top: 3px;
+      }
+
+      .light.red {
+        background: #fc968b;
+      }
+
+      .light.green {
+        background: #a0e8c7;
+      }
+
+      .service p {
+        padding-left: 30px;
+        line-height: 1.4;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <h1>Issues &amp; Code</h1>
+
+        <ul>
+          <li>
+            <a href="https://github.com/nestnotes/issues/issues/new">New issue</a>
+          </li>
+          <li>
+            <a href="https://github.com/orgs/nestnotes/projects/2">Project board</a>
+          </li>
+          <li>
+            <a href="https://github.com/nestnotes/issues/milestones">All milestones</a>
+          </li>
+          <li>
+            <a href="https://github.com/nestnotes/issues/issues">All issues</a>
+          </li>
+          <li>
+            <a href="https://github.com/nestnotes/api"><code>api</code> repo</a>
+          </li>
+          <li>
+            <a href="https://github.com/nestnotes/web-client"><code>web-client</code> repo</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Services &amp; Utilities</h1>
+
+        <ul>
+          <li>
+            <a href="https://nestnotes.zendesk.com/agent/">Zendesk</a>
+          </li>
+          <li>
+            <a href="https://mixpanel.com/report/1183212/dashboard/?share=1#tags=project%20dashboard">Mixpanel</a>
+          </li>
+          <li>
+            <a href="https://airtable.com/tblXqjuPEoSmvZldd/viwn0iZpHPvKqO7G4">Airtable Seeds</a>
+          </li>
+          <li>
+            <a href="https://us14.admin.mailchimp.com/lists/members/?id=54097#p:1-s:100-sa:optin_time-so:false">MailChimp Newsletter</a>
+          </li>
+          <li>
+            <a href="https://analytics.google.com/analytics/web/#report/defaultid/a84472841w126446052p130065161/%3F_u.dateOption%3Dlast30days/">Google Analytics</a>
+          </li>
+          <li>
+            <a href="https://developers.facebook.com/tools/debug/">Open Graph Debugger</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h1>Prod &amp; DevOps</h1>
+
+        <ul>
+          <li>
+            <a href="https://dashboard.heroku.com/pipelines/472ab582-96d5-4c92-9bc1-9546384f52cf"><code>api</code> Pipeline</a>
+          </li>
+          <li>
+            <a href="https://dashboard.heroku.com/pipelines/2b7a2f74-82cd-4eff-9db9-eb571d0e0784"><code>web-client</code> Pipeline</a>
+          </li>
+          <li>
+            <a href="https://sentry.io/nestnotes/">Sentry</a>
+          </li>
+          <li>
+            <a href="https://rpm.newrelic.com/accounts/1539322/applications/47041953">New Relic</a>
+          </li>
+          <li>
+            <a href="https://www.cloudflare.com/a/overview/nestnotes.com">Cloudflare</a>
+          </li>
+          <li>
+            <a href="https://nestnotes.slack.com/apps/A0F7XDUAZ-incoming-webhooks">Robit Configuration</a>
+          </li>
+        </ul>
+      </section>
+
+      <div class="reports">
+        <div class="service api-v1">
+          <div class="light"></div>
+          <p>
+            <strong>https://api.nestnotes.com/v1</strong><br>
+            <span class="status"></span>
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      (function() {
+        var req = fetch('https://api.nestnotes.com/v1');
+        var light = document.querySelector('.api-v1 .light');
+        var status = document.querySelector('.api-v1 .status');
+        var start = Date.now();
+
+        function catcher(err) {
+          light.classList.add('red');
+          status.innerText = err;
+        }
+
+        req.then(function(res) {
+          var end = Date.now();
+          var jsonDingus = res.json();
+
+          jsonDingus.then(function(json) {
+            if (json.data.version === '1') {
+              light.classList.add('green');
+              status.innerText = `HTTP ${res.status}, ${end - start}ms`;
+            } else {
+              catcher('Unexpected response!');
+            }
+          });
+
+          jsonDingus.catch(catcher);
+        });
+
+        req.catch(catcher);
+      }());
+    </script>
+  </body>
+</html>
