@@ -5,8 +5,8 @@ body {
 
 body, input, select, textarea, button { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
 
-$breakpoint-xs: '(min-width: 376px)';
-$breakpoint-sm: '(min-width: 600px)';
+$breakpoint-xs: '(min-width: 640px)';
+$breakpoint-sm: '(min-width: 800px)';
 $breakpoint-md: '(min-width: 960px)';
 $breakpoint-lg: '(min-width: 1280px)';
 $breakpoint-xl: '(min-width: 1440px)';

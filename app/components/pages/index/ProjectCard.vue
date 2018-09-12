@@ -6,10 +6,10 @@
   <article class="project-card group">
     <a
       :href="project.url"
-      class="flex items-stretch"
+      class="flex-xs items-stretch"
     >
       <div
-        class="logo-wrapper flex items-center p-3 col-6"
+        class="logo-wrapper flex items-center py-4 px-3 p-sm-3 col-16 col-xs-8 col-sm-6"
         :style="{
           background: project.logoBackground
         }"
@@ -23,7 +23,7 @@
         />
       </div>
 
-      <div class="col-10 p-2 flex items-center">
+      <div class="col-16 col-xs-8 col-sm-10 p-2 flex items-center">
         <div>
           <h1 class="mb-1">
             {{ project.title }}

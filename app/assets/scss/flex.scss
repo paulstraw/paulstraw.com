@@ -8,6 +8,13 @@ $breakpoint-lg: '(min-width: 64em)' !default;
 .flex-row { flex-direction: row; }
 .flex-wrap { flex-wrap: wrap; }
 
+@media #{$breakpoint-xs} {
+  .flex-xs { display: flex }
+  .flex-xs-column { flex-direction: column; }
+  .flex-xs-row { flex-direction: row; }
+  .flex-xs-wrap { flex-wrap: wrap; }
+}
+
 @media #{$breakpoint-sm} {
   .flex-sm { display: flex }
   .flex-sm-column { flex-direction: column; }

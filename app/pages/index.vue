@@ -13,12 +13,12 @@ This page currently acts as a portfolio.
       </header>
 
       <article class="container mt-4">
-        <p class="p-2 col-16 col-md-12 push-md-2">Ever since I was a kid, all I've wanted to do is make things and share them with other people. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Below are some of the things I've made, and companies I've worked with. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
+        <p class="p-2 col-16 col-md-14 push-md-1 col-lg-12 push-lg-2">Ever since I was a kid, all I've wanted to do is make things and share them with other people. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Below are some of the things I've made, and companies I've worked with. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
       </article>
     </div>
 
     <div class="container">
-      <div class="col-16 col-md-12 push-md-2">
+      <div class="col-16 col-md-14 push-md-1 col-lg-12 push-lg-2">
         <project-card
           v-for="project in projects"
           :key="project.logoName"
@@ -49,10 +49,10 @@ export default {
           title: `Design Kollective`,
           subtitle: `VP Engineering`,
           logoName: 'design-kollective',
-          logoHeight: 48,
+          logoHeight: 42,
           logoBackground: '#e86041',
           url: 'https://designkollective.com',
-          description: `Making tools to help local furniture boutiques develop and maintain a web presence. We're still a very small team, which means I do everything from product planning and design, to frontend (Vue/Nuxt), to backend (Elixir), to writing and shooting marketing videos.`,
+          description: `Making tools to help local furniture boutiques develop and maintain a web presence. A (currently) small team means I do everything from product design, to frontend (Vue/Nuxt), to backend (Elixir), to writing and shooting marketing videos.`,
         },
         {
           title: `Microcosm`,
