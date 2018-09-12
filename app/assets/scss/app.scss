@@ -5,6 +5,25 @@ body {
 
 body, input, select, textarea, button { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
 
+$breakpoint-xs: '(min-width: 376px)';
+$breakpoint-sm: '(min-width: 600px)';
+$breakpoint-md: '(min-width: 960px)';
+$breakpoint-lg: '(min-width: 1280px)';
+$breakpoint-xl: '(min-width: 1440px)';
+
+$container-width: 102.85714286rem;
+$columns: 16;
+
+.group {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
 
 @import './blog-post-layout';
 @import './homepage-layout';
+@import './whitespace';
+@import './grid';
+@import './flex';

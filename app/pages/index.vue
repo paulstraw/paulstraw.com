@@ -7,23 +7,26 @@ This page currently acts as a portfolio.
 <template>
   <div>
     <div>
-      <header>
+      <header class="pt-3">
         <h1>Paul Straw</h1>
         <h2>I Can't Stop Making Things</h2>
       </header>
 
-      <article>
-        <p>If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Here are some of the things I've made, and some of the companies I've worked with:</p>
+      <article class="container mt-4">
+        <p class="p-2 col-16 col-md-12 push-md-2">Ever since I was a kid, all I've wanted to do is make things and share them with other people. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Below are some of the things I've made, and companies I've worked with. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
       </article>
     </div>
 
-    <project-card
-      v-for="project in projects"
-      :key="project.logoName"
-      :project="project"
-    />
-
-    <p>This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a>.</p>
+    <div class="container">
+      <div class="col-16 col-md-12 push-md-2">
+        <project-card
+          v-for="project in projects"
+          :key="project.logoName"
+          :project="project"
+          class="m-2"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -46,6 +49,7 @@ export default {
           title: `Design Kollective`,
           subtitle: `VP Engineering`,
           logoName: 'design-kollective',
+          logoHeight: 48,
           logoBackground: '#e86041',
           url: 'https://designkollective.com',
           description: `Making tools to help local furniture boutiques develop and maintain a web presence. We're still a very small team, which means I do everything from product planning and design, to frontend (Vue/Nuxt), to backend (Elixir), to writing and shooting marketing videos.`,
@@ -53,6 +57,7 @@ export default {
         {
           title: `Microcosm`,
           logoName: 'microcosm',
+          logoHeight: 50,
           logoBackground: '#ae77a1',
           url: 'https://store.steampowered.com/app/626570/Microcosm/',
           description: `Build voxel worlds in virtual reality! Microcosm lets you place up to 512×256×516 (over 67 million) voxels however you'd like. Choose from solid, transparent, and light-emitting voxels to build the worlds you've always dreamed of.`,
@@ -60,6 +65,7 @@ export default {
         {
           title: `The Decline`,
           logoName: 'the-decline',
+          logoHeight: 50,
           logoBackground: '#868686',
           url: 'https://paulstraw.itch.io/the-decline',
           description: `Click to play now in your browser! Created in 48 hours for Ludum Dare 42. Can you get to the top of this crumbling world?`,
@@ -67,6 +73,7 @@ export default {
         {
           title: `Booster's Day Out`,
           logoName: 'boosters-day-out',
+          logoHeight: 50,
           logoBackground: '#0c1417',
           url: 'https://paulstraw.itch.io/boostersdayout',
           description: `Click to play now in your browser! Created in 48 hours for Ludum Dare 38. Booster's Day Out is the first game I publicly released. It's a physics-based, action-y, puzzle-y spaceflight journey. It's also absurdly difficult, so good luck!`,
@@ -74,6 +81,7 @@ export default {
         {
           title: `Nybble`,
           logoName: 'nybble',
+          logoHeight: 50,
           logoBackground: '#5dd89f',
           url: 'https://paulstraw.itch.io/nybble',
           description: `A fun, impractical, blocky typeface. I made Nybble for use as a headline font in my own games and designs. It's a public domain release, click to learn more and download it.`,
@@ -82,6 +90,7 @@ export default {
           title: `imgix`,
           subtitle: `Developer Relations`,
           logoName: 'imgix',
+          logoHeight: 57,
           logoBackground: '#F8510F',
           url: 'https://imgix.com',
           description: `Maintained client libraries for many different languages/frameworks, and built open-source tools to help developers work with images more effectively. Handled community management and engagement.`,
@@ -89,6 +98,7 @@ export default {
         {
           title: `Does Not Compute`,
           logoName: 'does-not-compute',
+          logoHeight: 66,
           logoBackground: '#f4f4f4',
           url: 'https://spec.fm/podcasts/does-not-compute',
           description: `Software development podcast. Co-hosted with Sean Washington for over two years and 130 episodes on the Spec podcast network.`,
@@ -97,6 +107,7 @@ export default {
           title: `Octopus`,
           subtitle: `Consulting Director / Partner`,
           logoName: 'octopus',
+          logoHeight: 48,
           logoBackground: '#e8e9eb',
           url: 'http://octopuscreative.com',
           description: `Development team lead, client relationship and project management, web application architecture and development.`,
@@ -104,6 +115,7 @@ export default {
         {
           title: `Shuffle NYC`,
           logoName: 'shuffle-nyc',
+          logoHeight: 42,
           logoBackground: '#f1efed',
           url: 'https://shuffle.nyc',
           description: `Apartment and classifieds newsletter app with a New York City focus. Built and launched the product from end-to-end; design and development.`,
@@ -111,6 +123,7 @@ export default {
         {
           title: `Placemat`,
           logoName: 'placemat',
+          logoHeight: 54,
           logoBackground: '#2B2E36',
           url: 'https://placem.at',
           description: `Placeholder image nouns (people, places, and things), powered by imgix and Unsplash.`,
@@ -118,6 +131,7 @@ export default {
         {
           title: `Google`,
           logoName: 'google',
+          logoHeight: 57,
           logoBackground: '#3DBB55',
           url: 'https://www.google.com/?gws_rd=i_mean_what_else_am_i_going_to_link_to',
           description: `Mobile app user interaction prototype design and development.`,
@@ -125,6 +139,7 @@ export default {
         {
           title: `Motif`,
           logoName: 'motif',
+          logoHeight: 60,
           logoBackground: '#22303A',
           url: 'https://motif.imgix.com',
           description: `Generate smart, responsive social network images that help your whole site look better in just a few clicks, powered by imgix.`,
@@ -132,6 +147,7 @@ export default {
         {
           title: `CoverHound`,
           logoName: 'coverhound',
+          logoHeight: 54,
           logoBackground: '#E2AD2F',
           url: 'https://coverhound.com',
           description: `Development support and integration with internal development teams for over three years.`,
@@ -139,6 +155,7 @@ export default {
         {
           title: `Union & Fifth`,
           logoName: 'union-and-fifth',
+          logoHeight: 48,
           logoBackground: '#ddd',
           url: 'https://unionandfifth.com',
           description: `Buildout of custom ecommerce and inventory management systems. Ongoing maintenance, features, and devops for a year after launch.`,
@@ -146,6 +163,7 @@ export default {
         {
           title: `Coin`,
           logoName: 'coin',
+          logoHeight: 60,
           logoBackground: '#178FE1',
           url: 'https://hackernoon.com/r-i-p-plastc-and-coin-death-of-the-smartcard-industry-bc243cec913c',
           description: `Homepage animation design and implementation.`,
@@ -153,6 +171,7 @@ export default {
         {
           title: `VerifyInvestor`,
           logoName: 'verifyinvestor',
+          logoHeight: 39,
           logoBackground: '#3C4142',
           url: 'https://verifyinvestor.com',
           description: `Full site buildout including payment, reviewer/investor messaging, and JavaScript image redaction/annotation tool. Initial MVP developed and launched in four weeks.`,
@@ -160,6 +179,7 @@ export default {
         {
           title: `The Sketchbook Project`,
           logoName: 'the-sketchbook-project',
+          logoHeight: 51,
           logoBackground: '#2C2D2F',
           url: 'https://sketchbookproject.com',
           description: `Complete redesign implementation and upgrade to Rails 4. Refactoring and migration of existing production database schema.`,
@@ -167,6 +187,7 @@ export default {
         {
           title: `Hewlett-Packard`,
           logoName: 'hewlett-packard',
+          logoHeight: 45,
           logoBackground: '#02468B',
           url: 'https://hp.com',
           description: `Mobile app user interaction prototype design and development.`,
@@ -174,6 +195,7 @@ export default {
         {
           title: `Drift`,
           logoName: 'drift',
+          logoHeight: 48,
           logoBackground: '#666D7F',
           url: 'https://github.com/imgix/drift',
           description: `Easily add "zoom on hover" functionality to your site's images. Lightweight, no-dependency JavaScript.`,
@@ -181,6 +203,7 @@ export default {
         {
           title: `Luminous`,
           logoName: 'luminous',
+          logoHeight: 42,
           logoBackground: '#666D7F',
           url: 'https://github.com/imgix/luminous',
           description: `A simple, lightweight, no-dependencies JavaScript lightbox.`,
