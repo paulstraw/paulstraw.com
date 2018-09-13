@@ -13,7 +13,7 @@ This page currently acts as a portfolio.
       </header>
 
       <article class="container mt-1 mt-md-2">
-        <p class="p-1 p-xs-2 col-16 col-md-14 push-md-1 col-lg-12 push-lg-2 col-xl-10 push-xl-3">Ever since I was a kid, all I've wanted to do is make things and share them with other people. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Below are some of the things I've made, and companies I've worked with. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
+        <p class="p-1 p-xs-2 col-16 col-md-14 push-md-1 col-lg-12 push-lg-2 col-xl-10 push-xl-3">Ever since I was a kid, all I've wanted to do is make things and share them with other people. Below are some of the things I've made, and companies I've worked with. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
       </article>
     </div>
 
