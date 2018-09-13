@@ -7,7 +7,7 @@ This page currently acts as a portfolio.
 <template>
   <div>
     <div>
-      <header class="pt-md-3">
+      <header class="pt-1 pt-md-3">
         <h1>Paul Straw</h1>
         <h2>I Can't Stop Making Things</h2>
       </header>
