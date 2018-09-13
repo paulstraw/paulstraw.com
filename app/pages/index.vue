@@ -7,13 +7,13 @@ This page currently acts as a portfolio.
 <template>
   <div>
     <div>
-      <header class="pt-3">
+      <header class="pt-md-3">
         <h1>Paul Straw</h1>
         <h2>I Can't Stop Making Things</h2>
       </header>
 
-      <article class="container mt-4">
-        <p class="p-2 col-16 col-md-14 push-md-1 col-lg-12 push-lg-2">Ever since I was a kid, all I've wanted to do is make things and share them with other people. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Below are some of the things I've made, and companies I've worked with. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
+      <article class="container mt-1 mt-md-2">
+        <p class="p-1 p-xs-2 col-16 col-md-14 push-md-1 col-lg-12 push-lg-2 col-xl-10 push-xl-3">Ever since I was a kid, all I've wanted to do is make things and share them with other people. If you want to get in touch, send an email to <a href="mailto:paulstraw@paulstraw.com">paulstraw@paulstraw.com</a>, or message me on Twitter <a href="https://twitter.com/paulstraw">@paulstraw</a>. Below are some of the things I've made, and companies I've worked with. This website is statically generated with Nuxt, and hosted on Netlify. It's open sourced under the MIT license, and <a href="https://github.com/paulstraw/paulstraw.com">available on GitHub</a></p>
       </article>
     </div>
 
@@ -23,7 +23,7 @@ This page currently acts as a portfolio.
           v-for="project in projects"
           :key="project.logoName"
           :project="project"
-          class="mx-2 my-3"
+          class="mx-1 mx-xs-2 my-2 my-md-3"
         />
       </div>
     </div>
@@ -222,15 +222,65 @@ h1, h2 {
 
 h1 {
   font-weight: 800;
-  font-size: 120px;
+  font-size: 48px;
   line-height: 1.1;
 }
 
 h2 {
   font-weight: 400;
   color: #8790a8;
-  font-size: 55.5px;
+  font-size: 21.5px;
   line-height: 1.1;
+}
+
+@media (min-width: 375px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  h2 {
+    font-size: 24.2px;
+  }
+}
+
+@media (min-width: 415px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 40.8px;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 108px;
+  }
+
+  h2 {
+    font-size: 49.2px;
+  }
+}
+
+@media (min-width: 960px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 55.5px;
+  }
 }
 
 a {

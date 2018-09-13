@@ -5,6 +5,7 @@
 <template>
   <article
     @mouseenter="waveHello"
+    @touchstart="waveHello"
     class="project-card group"
   >
     <a
@@ -26,7 +27,7 @@
         />
       </div>
 
-      <div class="info col-16 col-xs-8 col-sm-10 p-2 flex items-center">
+      <div class="info col-16 col-xs-8 col-sm-10 p-2 px-md-3 py-xl-3 flex items-center">
         <div>
           <h1 class="mb-1">
             {{ project.title }}
@@ -51,13 +52,25 @@ export default {
     }
   },
 
+  data() {
+    return {
+      waving: false
+    }
+  },
+
   methods: {
     waveHello() {
-      let hoverEls = this.$el.querySelectorAll('.hover')
-      console.log('waveHello', hoverEls)
+      if (this.waving) {
+        return
+      }
 
-      this.$velocity(hoverEls, 'hello', {
-        stagger: 30
+      this.waving = true
+      let that = this
+      this.$velocity(this.$el.querySelectorAll('.hover'), 'hello', {
+        stagger: 30,
+        complete() {
+          that.waving = false
+        }
       })
     }
   }
@@ -66,19 +79,29 @@ export default {
 
 <style scoped>
 .project-card {
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (min-width: 800px) {
+  .project-card {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 21px;
+  }
 }
 
 .info {
   background: #fff;
   border-radius: 0 0 3px 3px;
-}
-
-h1 {
-  font-size: 21px;
-  font-weight: 600;
 }
 
 a {
