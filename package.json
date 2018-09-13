@@ -4,7 +4,7 @@
   "description": "Paul Straw's personal website + playground",
   "main": "index.js",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "HOST=0.0.0.0 nuxt",
     "generate": "nuxt generate"
   },
   "author": "Paul Straw",
