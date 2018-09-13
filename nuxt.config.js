@@ -22,6 +22,31 @@ module.exports = {
 
   css: ['~/assets/scss/app.scss'],
 
+  head: {
+    titleTemplate(title) {
+      return title ? `${title} » Paul Straw` : 'Paul Straw'
+    },
+
+    htmlAttrs: {
+      lang: 'en',
+    },
+
+    meta: [
+      {
+        charset: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: `I can't stop making things.`,
+      },
+    ]
+  },
+
   modules: [
     '@nuxtjs/axios'
   ],
