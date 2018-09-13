@@ -1,6 +1,4 @@
 <svg viewBox="0 0 407 176" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect class="hover" x="131" width="149" height="111" fill="url(#pattern0)"/>
-
 <g class="hover" filter="url(#filter14_d)">
 <path d="M21 165V160H11V165H21ZM16 155V150H11V155H16ZM6 170V145H21V155H26V170H6Z" fill="#B2D0DB"/>
 </g>
@@ -28,6 +26,9 @@
 <g class="hover" filter="url(#filter6_d)">
 <path d="M196 170V165H211V160H196V145H216V150H201V155H216V170H196Z" fill="#B2D0DB"/>
 </g>
+
+<rect class="hover" x="131" width="149" height="111" fill="url(#pattern0)"/>
+
 <g class="hover" filter="url(#filter5_d)">
 <path d="M246 155V150H251V155H246ZM236 170V145H246V150H241V165H251V155H256V170H236Z" fill="#B2D0DB"/>
 </g>
