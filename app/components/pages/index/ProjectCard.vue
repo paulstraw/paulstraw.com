@@ -3,7 +3,10 @@
 </docs>
 
 <template>
-  <article class="project-card group">
+  <article
+    @mouseenter="waveHello"
+    class="project-card group"
+  >
     <a
       :href="project.url"
       class="flex-xs items-stretch"
@@ -23,7 +26,7 @@
         />
       </div>
 
-      <div class="col-16 col-xs-8 col-sm-10 p-2 flex items-center">
+      <div class="info col-16 col-xs-8 col-sm-10 p-2 flex items-center">
         <div>
           <h1 class="mb-1">
             {{ project.title }}
@@ -47,15 +50,30 @@ export default {
       required: true,
     }
   },
+
+  methods: {
+    waveHello() {
+      let hoverEls = this.$el.querySelectorAll('.hover')
+      console.log('waveHello', hoverEls)
+
+      this.$velocity(hoverEls, 'hello', {
+        stagger: 30
+      })
+    }
+  }
 }
 </script>
 
 <style scoped>
 .project-card {
-  background: #fff;
   font-size: 18px;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  background: #fff;
+  border-radius: 0 0 3px 3px;
 }
 
 h1 {
@@ -70,7 +88,27 @@ a {
 
 .logo-wrapper {
   text-align: center;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px 3px 0 0;
+}
+
+@media (min-width: 640px) {
+  .info {
+    border-radius: 0 3px 3px 0;
+  }
+
+  .logo-wrapper {
+    border-radius: 3px 0 0 3px;
+  }
+}
+
+
+>>> svg {
+  overflow: visible;
+}
+
+>>> .hover {
+  transform-box: fill-box;
+  transform-origin: center center;
 }
 </style>
 

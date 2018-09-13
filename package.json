@@ -17,7 +17,8 @@
     "markdown-it": "^8.4.2",
     "markdown-it-front-matter": "^0.1.2",
     "nuxt": "^1.4.2",
-    "svg-inline-loader": "^0.8.0"
+    "svg-inline-loader": "^0.8.0",
+    "velocity-animate": "^1.5.2"
   },
   "devDependencies": {
     "node-sass": "^4.9.3",

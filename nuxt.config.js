@@ -27,6 +27,7 @@ module.exports = {
   ],
 
   plugins: [
+    { src: '~/plugins/velocity', ssr: false },
     '~/plugins/vue-filters',
   ],
 
@@ -44,7 +45,7 @@ module.exports = {
       config.module.rules.push({
         test: /\.svg$/,
         loader:
-          'svg-inline-loader?removeSVGTagAttrs=false&classPrefix=true&idPrefix=true',
+          'svg-inline-loader?removeSVGTagAttrs=false&classPrefix=false&idPrefix=true',
         exclude: [/static/],
       })
     },
