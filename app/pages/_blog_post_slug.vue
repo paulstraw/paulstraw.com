@@ -42,6 +42,12 @@ export default {
       data.htmlContent = md.render(rawContent)
     })
   },
+
+  head() {
+    return {
+      title: this.title
+    }
+  }
 }
 </script>
 
