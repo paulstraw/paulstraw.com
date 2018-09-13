@@ -81,7 +81,7 @@ export default {
 .project-card {
   font-size: 16px;
   border-radius: 3px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 4px 1px rgba(18, 20, 31, 0.54);
 }
 
 h1 {
