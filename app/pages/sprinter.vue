@@ -17,7 +17,7 @@
         moment’s notice, seemed too good to be true. Of course, at the time, it
         mostly <em>was</em> too good to be true. Solar panels were extremely
         expensive, batteries stored very little energy, and high-speed wireless
-        internet access was the stuff of science fiction.
+        internet access was practically still the stuff of science fiction.
       </p>
       <p>
         Over the next decade and a half, that all changed. The proliferation of
@@ -27,7 +27,10 @@
         guides demonstrating how to take advantage of all these technologies.
       </p>
       <figure>
-        <img src="/img/sprinter/first-trip.jpg" />
+        <img
+          src="/img/sprinter/first-trip.jpg"
+          title="Oh, how I hated those decals."
+        />
         <figcaption>
           The van on our very first trip up to Portland, pre-decal removal.
         </figcaption>
@@ -512,7 +515,10 @@
       </p>
 
       <figure>
-        <img src="/img/sprinter/trip-map-2019-07.jpg" />
+        <img
+          src="/img/sprinter/trip-map-2019-07.jpg"
+          title="Charlene kept this log using Google Maps' “My Maps” feature."
+        />
         <figcaption>Our Sprinter travels as of July 2019.</figcaption>
       </figure>
 
@@ -595,7 +601,7 @@
           </li>
           <li id="fn10" class="footnote-item">
             <p>
-              This project came together surprisingly fast and well!
+              This project came together surprisingly fast and smoothly!
               Unfortunately, electrical noise from the fridge compressor turning
               on and off kept interfering with the data line of the fixtures
               that ran behind it, causing them to randomly turn on. This was a
@@ -648,13 +654,13 @@
           </li>
           <li id="fn15" class="footnote-item">
             <p>
-              before being throttled to 128Kbps
+              Before being throttled to 128Kbps
               <a href="#fnref15" class="footnote-backref">↩︎</a>
             </p>
           </li>
           <li id="fn16" class="footnote-item">
             <p>
-              Two is one, one is&nbsp;none
+              Two is one, one is none
               <a href="#fnref16" class="footnote-backref">↩︎</a>
             </p>
           </li>
