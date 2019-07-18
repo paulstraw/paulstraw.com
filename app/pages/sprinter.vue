@@ -29,9 +29,7 @@
       <figure>
         <img src="/img/sprinter/first-trip.jpg" />
         <figcaption>
-          The van on our very first trip up to Portland, pre-decal removal. We
-          unintentionally ended up staying in this exact spot in the RV park
-          again on our trip back in 2019. 🤔
+          The van on our very first trip up to Portland, pre-decal removal.
         </figcaption>
       </figure>
       <p>
@@ -79,10 +77,14 @@
         instruments at my parents’ house. Even with all the reduction in
         “stuff”, we’ve still had to squeeze every inch of space out of the van.
       </p>
-      <figure class="figure-right">
+      <figure class="figure-left">
         <img src="/img/sprinter/stop-motion.jpg" />
         <figcaption>
-          Shooting a stop motion video on the folding desk I added in front.
+          Shooting a
+          <a href="https://www.youtube.com/watch?v=VfJl4B4B32Q"
+            >stop motion video</a
+          >
+          on the folding desk I added in front.
         </figcaption>
       </figure>
       <p>
@@ -389,7 +391,10 @@
       </figure>
       <p>
         There have been tons of miscellaneous projects, challenges, and learning
-        experiences in improving and living in the Sprinter.
+        experiences in improving and living in the Sprinter. I'll go over a few
+        of them here, but there are lots that didn't make the cut. Just because
+        it's on wheels doesn't mean you're free from basic "homeownery" tasks
+        and maintenance, either (hello re-caulking a bathroom).
       </p>
       <p>
         The fridge has worked quite well for the most part, and seems to be
@@ -439,6 +444,18 @@
         trips during intense heat again, as even with the AC it could get pretty
         miserable.
       </p>
+      <figure class="figure-small">
+        <video
+          playsinline
+          autoplay
+          loop
+          src="/video/sprinter/family-portrait.mp4"
+        ></video>
+        <figcaption>
+          Of course I had to make a version of our family pixel portrait with
+          the van.
+        </figcaption>
+      </figure>
       <p>
         The other side of climate control is insulation. We purchased a roll of
         Reflectix early on, and cut it to make covers for the front windows. To
@@ -511,6 +528,7 @@
       <br /><br /><br /><br /><br /><br /><br /><br /><br />
       <ul>
         <li>TODO: campendium, coverage</li>
+        <li>TODO: responsive figure component</li>
       </ul>
 
       <section class="footnotes">
