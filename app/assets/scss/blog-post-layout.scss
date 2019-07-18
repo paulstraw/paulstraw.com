@@ -52,7 +52,7 @@
   hr {
     border: 0;
     border-top: 6px solid #699bc0;
-    opacity: 0.18;
+    opacity: 0.42;
     margin: 3rem 0;
     border-radius: 1px;
     transform: skew(-21deg);
@@ -61,7 +61,7 @@
   .inner {
     margin: 0 auto;
     padding: 0 2.5vw;
-    max-width: 700px;
+    max-width: 740px;
   }
 
   h1,
@@ -76,8 +76,13 @@
     line-height: 1.4;
   }
 
-  img {
+  img,
+  video {
     max-width: 100%;
+  }
+
+  video {
+    outline: 0;
   }
 
   blockquote {
@@ -94,9 +99,50 @@
     top: 0;
     left: -1.8em;
     opacity: 0.42;
+    transform: skew(-6deg);
   }
 
   pre {
     white-space: pre-wrap;
+  }
+
+  figure {
+    margin: 0.5em 0;
+  }
+
+  .figure-right {
+    float: right;
+    margin-left: 1em;
+    width: 50%;
+  }
+
+  .figure-left {
+    float: left;
+    margin-right: 1em;
+    width: 50%;
+  }
+
+  figcaption {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+      'Helvetica Neue', sans-serif;
+    font-size: 0.8em;
+    color: #555;
+    padding: 0.5em 0 0.5em 1.5em;
+    margin-top: 0.5em;
+    position: relative;
+  }
+
+  figcaption:before {
+    content: '';
+    display: block;
+    background: #699bc0;
+    width: 0.3em;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.42;
+    transform: skew(-6deg);
   }
 }
