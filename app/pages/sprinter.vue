@@ -12,8 +12,8 @@
 
     <div class="post-content">
       <p>
-        Ever since I was 10 or 11, I’ve wanted to live in an RV. The idea of
-        having all my equipment with me, ready to go anywhere I wanted at a
+        Ever since I was 10 or 11, I’ve dreamed about living in an RV. The idea
+        of having all my equipment with me, ready to go anywhere I wanted at a
         moment’s notice, seemed too good to be true. Of course, at the time, it
         mostly <em>was</em> too good to be true. Solar panels were extremely
         expensive, batteries stored very little energy, and high-speed wireless
@@ -78,7 +78,10 @@
         “stuff”, we’ve still had to squeeze every inch of space out of the van.
       </p>
       <figure class="figure-left">
-        <img src="/img/sprinter/stop-motion.jpg" />
+        <img
+          src="/img/sprinter/stop-motion.jpg"
+          title="We didn't have a printer, so everything was hand-drawn!"
+        />
         <figcaption>
           Shooting a
           <a href="https://www.youtube.com/watch?v=VfJl4B4B32Q"
@@ -124,9 +127,12 @@
         me.
       </p>
       <figure class="figure-right">
-        <img src="/img/sprinter/installing-solar.jpg" />
+        <img
+          src="/img/sprinter/installing-solar.jpg"
+          title="With some help from my dad!"
+        />
         <figcaption>
-          Installing the solar panels, with some help from my dad.
+          Installing the solar panels.
         </figcaption>
       </figure>
       <h3>Solar &amp; Battery Bank</h3>
@@ -177,7 +183,7 @@
           src="/video/sprinter/overhead-light-upgrade.mp4"
         ></video>
         <figcaption>
-          Installation footage from the overhead light fluorescent -> LED
+          Installation footage from the overhead light fluorescent to LED
           upgrade.
         </figcaption>
       </figure>
@@ -257,10 +263,13 @@
         >
       </p>
       <figure class="figure-left">
-        <img src="/img/sprinter/charlene-and-dogs.jpg" />
+        <img
+          src="/img/sprinter/charlene-and-dogs.jpg"
+          title="From left: Papers, Butters (ours), Ollie, Zippy (sister's)"
+        />
         <figcaption>
-          Charlene sitting on the bed holding our two dogs (Papers and Butters,
-          left), and two of her sister's (Ollie and Zippy, right).
+          Charlene sitting on the bed holding our two dogs and two of her
+          sister's.
         </figcaption>
       </figure>
       <p>
@@ -315,10 +324,12 @@
         across the country.
       </p>
       <figure class="figure-right">
-        <img src="/img/sprinter/point-mugu.jpg" />
+        <img
+          src="/img/sprinter/point-mugu.jpg"
+          title="One of the first places we went after moving in, and one of my personal favorites. 🌊"
+        />
         <figcaption>
-          The Sprinter at Point Mugu, CA (post-decal removal). One of the first
-          places we went after moving in, and one of my personal favorites. 🌊
+          The Sprinter hits the beach at Point Mugu, CA, post-decal removal.
         </figcaption>
       </figure>
       <p>
@@ -450,6 +461,7 @@
           autoplay
           loop
           src="/video/sprinter/family-portrait.mp4"
+          title="Yes, I realized the reverse light should be white. Oops!"
         ></video>
         <figcaption>
           Of course I had to make a version of our family pixel portrait with
@@ -488,18 +500,20 @@
         weeks, we got a rental car to get home in the meantime).
       </p>
       <p>
-        After lots of cleanup and prep work, we moved into the van full-time in
-        late 2017. After traveling the United States and Canada, we spent some
-        time in California before finally taking the van back to Portland in
-        early 2019. We’ve been at an RV park here since, and are planning to
-        stay until we get a house in the area sometime during 2020. I’ve always
-        wanted to try living in a van, but am still a bit surprised it’s worked
-        as well as it has for this long.
+        After lots of cleanup and prep work,<sup class="footnote-ref"
+          ><a href="#fn20" id="fnref20">[20]</a></sup
+        >
+        we moved into the van full-time in late 2017. After traveling the United
+        States and Canada, we spent some time in California before finally
+        taking the van back to Portland in early 2019. We’ve been at an RV park
+        here since, and are planning to stay until we get a house in the area
+        sometime during 2020. I’ve always wanted to try living in a van, but am
+        still a bit surprised it’s worked as well as it has for this long.
       </p>
 
       <figure>
         <img src="/img/sprinter/trip-map-2019-07.jpg" />
-        <figcaption>Our Sprinter travels as of July 2019</figcaption>
+        <figcaption>Our Sprinter travels as of July 2019.</figcaption>
       </figure>
 
       <p>
@@ -525,11 +539,12 @@
       </p>
       <p>🚐 ★★★★☆</p>
 
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <ul>
+      <ul style="visibility: hidden;">
         <li>TODO: campendium, coverage</li>
         <li>TODO: responsive figure component</li>
         <li>TODO: Fridge latch multi-story edit</li>
+        <li>TODO: og:image &amp; friends</li>
+        <li>TODO: footnote style/behavior</li>
       </ul>
 
       <section class="footnotes">
@@ -656,6 +671,12 @@
             <p>
               We ended up getting takeout from Denny’s, and watching fireworks
               from the river. <a href="#fnref19" class="footnote-backref">↩︎</a>
+            </p>
+          </li>
+          <li id="fn20" class="footnote-item">
+            <p>
+              …and several other mechanical issues which I'll spare you. 🙃
+              <a href="#fnref20" class="footnote-backref">↩︎</a>
             </p>
           </li>
         </ol>
