@@ -219,8 +219,8 @@
           src="/video/sprinter/homekit-lights.mp4"
         ></video>
         <figcaption>
-          The first working demo of the replacement under-cabinet lights set up
-          and talking to HomeKit. 🌈✨
+          The first demo of the replacement under-cabinet lights set up and
+          talking to HomeKit. 🌈✨
         </figcaption>
       </figure>
       <h3>Energy Conservation</h3>
@@ -529,6 +529,7 @@
       <ul>
         <li>TODO: campendium, coverage</li>
         <li>TODO: responsive figure component</li>
+        <li>TODO: Fridge latch multi-story edit</li>
       </ul>
 
       <section class="footnotes">
