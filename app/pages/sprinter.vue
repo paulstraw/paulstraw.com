@@ -24,7 +24,7 @@
         smart devices meant huge leaps in both cellular networking speed and
         lithium battery availability. Solar power became much more affordable.
         YouTube tutorials became ubiquitous, and suddenly anyone find dozens of
-        tutorials demonstrating how to take advantage of all these technologies.
+        guides demonstrating how to take advantage of all these technologies.
       </p>
       <figure>
         <img src="/img/sprinter/first-trip.jpg" />
