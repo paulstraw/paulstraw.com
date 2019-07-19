@@ -36,6 +36,22 @@ export default {
       open: false,
     }
   },
+
+  mounted() {
+    window.addEventListener('resize', this.resetOpenState)
+  },
+
+  beforeDestroy() {
+    window.removeEventListener('resize', this.resetOpenState)
+  },
+
+  methods: {
+    resetOpenState() {
+      if (window.innerWidth >= 480) {
+        this.open = false
+      }
+    },
+  },
 }
 </script>
 
