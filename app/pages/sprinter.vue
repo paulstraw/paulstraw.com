@@ -321,7 +321,8 @@
         and only yield ~250-350Wh on sunny days. Sunny days in open spots give
         much higher yields of &gt;1.5-2kWh.
       </p>
-      <h3>Internet Connectivity</h3>
+      <hr />
+      <h2>Internet Connectivity</h2>
       <p>
         Since I’m a full time remote software engineer, consistent internet
         access is critical for me. Our primary internet access since moving into
