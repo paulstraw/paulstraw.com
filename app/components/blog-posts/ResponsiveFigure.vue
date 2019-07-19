@@ -47,7 +47,7 @@ export default {
 
   methods: {
     resetOpenState() {
-      if (window.innerWidth >= 480) {
+      if (window.innerWidth >= 600) {
         this.open = false
       }
     },
@@ -168,7 +168,7 @@ export default {
   transform: translateX(-75vw);
 }
 
-@media (min-width: 480px) {
+@media (min-width: 600px) {
   .responsive-figure .toggle {
     display: none;
   }
