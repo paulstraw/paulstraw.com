@@ -232,7 +232,7 @@
         ></video>
         <figcaption>
           The first demo of the replacement under-cabinet lights set up and
-          talking to HomeKit. 🌈✨
+          talking to HomeKit. 🌈
         </figcaption>
       </figure>
       <h3>Energy Conservation</h3>
