@@ -211,16 +211,16 @@
         To scratch that itch, I decided to replace the under-cabinet lights with
         HomeKit-compatible LED ones. Adafruit’s 12-LED
         <a href="https://www.adafruit.com/product/2852">RGBW NeoPixel Ring</a>
-        happened to be fit perfectly inside the existing fixtures, so I just
+        happened to fit perfectly inside the existing fixtures, so I just
         removed the old bulbs. To tie everything together, I used a Raspberry Pi
-        runing <a href="https://github.com/KhaosT/HAP-NodeJS">HAP-NodeJS</a> to
+        running <a href="https://github.com/KhaosT/HAP-NodeJS">HAP-NodeJS</a> to
         integrate with HomeKit, and a simple Python script to actually
         communicate with the lights.<sup class="footnote-ref"
           ><a href="#fn10" id="fnref10">[10]</a></sup
         >
         The new lights have full color and brightness control, and only use
         about one watt each when on full brightness (usually a lot less, our
-        standard evening setup averages around 2-3 watts), so it’s a huge energy
+        standard evening setup averages around 2-3 watts). It’s a huge energy
         savings with lots of additional functionality.
       </p>
       <figure>
