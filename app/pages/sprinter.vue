@@ -6,7 +6,7 @@
   <div>
     <h1 class="post-title">The Sprinter</h1>
     <p class="post-date">
-      Posted Wednesday, July 17, 2019<br />
+      Posted Thursday, July 18, 2019<br />
       ~15 minute read
     </p>
 
