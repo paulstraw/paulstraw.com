@@ -23,8 +23,9 @@
         Over the next decade and a half, that all changed. The proliferation of
         smart devices meant huge leaps in both cellular networking speed and
         lithium battery availability. Solar power became much more affordable.
-        YouTube tutorials became ubiquitous, and suddenly anyone find dozens of
-        guides demonstrating how to take advantage of all these technologies.
+        YouTube tutorials became ubiquitous, and suddenly anyone could find
+        dozens of guides demonstrating how to take advantage of all these
+        technologies.
       </p>
       <figure>
         <img
@@ -80,7 +81,7 @@
         instruments at my parents’ house. Even with all the reduction in
         “stuff”, we’ve still had to squeeze every inch of space out of the van.
       </p>
-      <figure class="figure-left">
+      <responsive-figure position="left">
         <img
           src="/img/sprinter/stop-motion.jpg"
           title="We didn't have a printer, so everything was hand-drawn!"
@@ -92,7 +93,7 @@
           >
           on the folding desk I added in front.
         </figcaption>
-      </figure>
+      </responsive-figure>
       <p>
         Leisure Travel’s conversion originally had an electric sofa in back that
         folded down to become the top part of the bed. We kept that system for
@@ -129,7 +130,7 @@
         the van had already been converted, but electricity was entirely up to
         me.
       </p>
-      <figure class="figure-right">
+      <responsive-figure position="right">
         <img
           src="/img/sprinter/installing-solar.jpg"
           title="With some help from my dad!"
@@ -137,7 +138,7 @@
         <figcaption>
           Installing the solar panels.
         </figcaption>
-      </figure>
+      </responsive-figure>
       <h3>Solar &amp; Battery Bank</h3>
       <p>
         You can only fit so many watts of solar panels on the roof of a
@@ -179,17 +180,18 @@
         six hours in the evening would use 360 watt hours, or over 10% of our
         battery bank’s usable capacity!
       </p>
-      <figure class="figure-left">
+      <responsive-figure position="left">
         <video
           playsinline
           controls
           src="/video/sprinter/overhead-light-upgrade.mp4"
+          poster="/video/sprinter/overhead-light-upgrade.jpg"
         ></video>
         <figcaption>
           Installation footage from the overhead light fluorescent to LED
           upgrade.
         </figcaption>
-      </figure>
+      </responsive-figure>
       <p>
         The overhead lights were similarly wasteful. Each of the three
         fluorescent fixtures used ~27 watts, nearly three times more than each
@@ -226,6 +228,7 @@
           playsinline
           controls
           src="/video/sprinter/homekit-lights.mp4"
+          poster="/video/sprinter/homekit-lights.jpg"
         ></video>
         <figcaption>
           The first demo of the replacement under-cabinet lights set up and
@@ -265,7 +268,7 @@
           ><a href="#fn12" id="fnref12">[12]</a></sup
         >
       </p>
-      <figure class="figure-left">
+      <responsive-figure position="left">
         <img
           src="/img/sprinter/charlene-and-dogs.jpg"
           title="From left: Papers, Butters (ours), Ollie, Zippy (sister's)"
@@ -274,7 +277,7 @@
           Charlene sitting on the bed holding our two dogs and two of her
           sister's.
         </figcaption>
-      </figure>
+      </responsive-figure>
       <p>
         I highly recommend all of Victron’s equipment. In addition to the two
         inverters, we also use their
@@ -326,7 +329,7 @@
         well, and we’ve had reliable service in the vast majority of spots
         across the country.
       </p>
-      <figure class="figure-right">
+      <responsive-figure position="right">
         <img
           src="/img/sprinter/point-mugu.jpg"
           title="One of the first places we went after moving in, and one of my personal favorites. 🌊"
@@ -334,7 +337,7 @@
         <figcaption>
           The Sprinter hits the beach at Point Mugu, CA, post-decal removal.
         </figcaption>
-      </figure>
+      </responsive-figure>
       <p>
         Originally, we had this service through a company called
         <a href="https://unlimitedville.com">Unlimitedville</a>. They provide
@@ -396,16 +399,17 @@
       </p>
       <hr />
       <h2>Miscellany</h2>
-      <figure class="figure-right">
+      <responsive-figure position="right">
         <video
           playsinline
           controls
           src="/video/sprinter/fridge-latch.mp4"
+          poster="/video/sprinter/fridge-latch.jpg"
         ></video>
         <figcaption>
           Building and testing the fridge latch.
         </figcaption>
-      </figure>
+      </responsive-figure>
       <p>
         There have been tons of miscellaneous projects, challenges, and learning
         experiences in improving and living in the Sprinter. I'll go over a few
@@ -453,7 +457,7 @@
         plugged in, but then in winter 2018 removed it and replaced with a
         <a href="https://www.airxcel.com/maxxair/products/fans/maxxfan-deluxe"
           >Maxxair MaxFan 5100K</a
-        >. This has worked out great so far, even though a few 95º F<sup
+        >. This has worked out great so far, even during a few 95º F<sup
           class="footnote-ref"
           ><a href="#fn18" id="fnref18">[18]</a></sup
         >
@@ -467,6 +471,7 @@
           autoplay
           loop
           src="/video/sprinter/family-portrait.mp4"
+          poster="/video/sprinter/family-portrait.jpg"
           title="Oops, I realized the reverse light should be white."
         ></video>
         <figcaption>
@@ -700,6 +705,8 @@
 </template>
 
 <script>
+import ResponsiveFigure from '~/components/blog-posts/ResponsiveFigure'
+
 import 'littlefoot/dist/littlefoot.css'
 let littlefoot
 if (process.client) {
@@ -711,19 +718,23 @@ export default {
 
   layout: 'blog-post',
 
+  components: {
+    ResponsiveFigure,
+  },
+
   head: {
     title: 'The Sprinter',
 
     meta: [
       {
+        hid: 'og:title',
+        property: 'og:title',
+        content: `The Sprinter » Paul Straw`,
+      },
+      {
         hid: 'description',
         name: 'description',
         content: `My wife and I moved into a van with our two dogs in 2017, and I finally wrote about it.`,
-      },
-      {
-        hid: 'og:title',
-        property: 'og:title',
-        content: `The Sprinter`,
       },
       {
         hid: 'og:description',
@@ -749,10 +760,7 @@ export default {
   },
 
   mounted() {
-    littlefoot({
-      activateOnHover: true,
-      dismissOnUnhover: true,
-    })
+    littlefoot()
   },
 }
 </script>

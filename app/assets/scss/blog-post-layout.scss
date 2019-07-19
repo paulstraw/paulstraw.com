@@ -6,6 +6,7 @@
   line-height: 1.6;
   padding-bottom: 10vh;
   padding-top: 2vw;
+  overflow: hidden;
 
   a {
     -webkit-tap-highlight-color: #fff;
@@ -115,17 +116,17 @@
     width: 100%;
   }
 
-  .figure-right {
-    float: right;
-    margin-left: 1em;
-    width: 50%;
-  }
+  // .figure-right {
+  //   float: right;
+  //   margin-left: 1em;
+  //   width: 50%;
+  // }
 
-  .figure-left {
-    float: left;
-    margin-right: 1em;
-    width: 50%;
-  }
+  // .figure-left {
+  //   float: left;
+  //   margin-right: 1em;
+  //   width: 50%;
+  // }
 
   .figure-small {
     width: calc(100vw - 40px);
