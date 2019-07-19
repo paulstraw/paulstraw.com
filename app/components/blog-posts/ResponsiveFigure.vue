@@ -195,4 +195,18 @@ export default {
     margin-left: 1em;
   }
 }
+
+@media (min-width: 1024px) {
+  .responsive-figure figure {
+    width: calc(100% + 2vw);
+  }
+
+  .rf-left figure {
+    transform: translateX(-2vw);
+  }
+
+  .rf-right figure {
+    transform: translateX(2vw);
+  }
+}
 </style>
