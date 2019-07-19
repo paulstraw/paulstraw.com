@@ -110,6 +110,11 @@
     margin: 0.5em 0;
   }
 
+  figure img,
+  figure video {
+    width: 100%;
+  }
+
   .figure-right {
     float: right;
     margin-left: 1em;

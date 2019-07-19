@@ -389,7 +389,10 @@
         <a href="https://www.rvmobileinternet.com/overview/#cellular"
           >Mobile Internet Resource Center</a
         >. They’ve got lots of great articles and reviews, and really keep on
-        top of the industry.
+        top of the industry. They also make an iOS and Android app called
+        <a href="http://www.twostepsbeyond.com/apps/coverage/">Coverage?</a>
+        that I used many times throughout the trip. It was surprisingly accurate
+        for the most part.
       </p>
       <hr />
       <h2>Miscellany</h2>
@@ -400,7 +403,7 @@
           src="/video/sprinter/fridge-latch.mp4"
         ></video>
         <figcaption>
-          The permanent fridge latch in action.
+          Building and testing the fridge latch.
         </figcaption>
       </figure>
       <p>
@@ -464,7 +467,7 @@
           autoplay
           loop
           src="/video/sprinter/family-portrait.mp4"
-          title="Yes, I realized the reverse light should be white. Oops!"
+          title="Oops, I realized the reverse light should be white."
         ></video>
         <figcaption>
           Of course I had to make a version of our family pixel portrait with
@@ -508,16 +511,19 @@
         >
         we moved into the van full-time in late 2017. After traveling the United
         States and Canada, we spent some time in California before finally
-        taking the van back to Portland in early 2019. We’ve been at an RV park
-        here since, and are planning to stay until we get a house in the area
-        sometime during 2020. I’ve always wanted to try living in a van, but am
-        still a bit surprised it’s worked as well as it has for this long.
+        taking the van back to Portland in early 2019.<sup class="footnote-ref"
+          ><a href="#fn21" id="fnref21">[21]</a></sup
+        >
+        We’ve been at an RV park here since, and are planning to stay until we
+        get a house in the area sometime during 2020. I’ve always wanted to try
+        living in a van, but am still a bit surprised it’s worked as well as it
+        has for this long.
       </p>
 
       <figure>
         <img
           src="/img/sprinter/trip-map-2019-07.jpg"
-          title="Charlene kept this log using Google Maps' “My Maps” feature."
+          title="Charlene has kept this log using Google Maps' “My Maps” feature."
         />
         <figcaption>Our Sprinter travels as of July 2019.</figcaption>
       </figure>
@@ -544,14 +550,6 @@
         and now kid me finally knows what it’s like to live in a van.
       </p>
       <p>🚐 ★★★★☆</p>
-
-      <ul style="visibility: hidden;">
-        <li>TODO: campendium, coverage</li>
-        <li>TODO: responsive figure component</li>
-        <li>TODO: Fridge latch multi-story edit</li>
-        <li>TODO: og:image &amp; friends</li>
-        <li>TODO: footnote style/behavior</li>
-      </ul>
 
       <section class="footnotes">
         <ol class="footnotes-list">
@@ -685,6 +683,16 @@
               <a href="#fnref20" class="footnote-backref">↩︎</a>
             </p>
           </li>
+          <li id="fn21" class="footnote-item">
+            <p>
+              During these trips, we used
+              <a href="https://www.campendium.com/">Campendium</a> extensively.
+              It's a great resource for finding both free and paid spots to stay
+              the night everywhere in the contiguous United States and at least
+              the parts of Canada we visited.
+              <a href="#fnref21" class="footnote-backref">↩︎</a>
+            </p>
+          </li>
         </ol>
       </section>
     </div>
@@ -705,6 +713,39 @@ export default {
 
   head: {
     title: 'The Sprinter',
+
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: `My wife and I moved into a van with our two dogs in 2017, and I finally wrote about it.`,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: `The Sprinter`,
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: `My wife and I moved into a van with our two dogs in 2017, and I finally wrote about it.`,
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `https://paulstraw.s3.amazonaws.com/sprinter/og-image.jpg`,
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: `article`,
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: `https://paulstraw.com/sprinter`,
+      },
+    ],
   },
 
   mounted() {
