@@ -291,8 +291,8 @@
         ><sup class="footnote-ref"><a href="#fn13" id="fnref13">[13]</a></sup>
         battery monitor. All of their products have been very reliable,
         well-documented, and even frequently updated (both device firmware and
-        iOS app). When on the road, being able to see historical yield
-        information has been very useful.
+        iOS app). When on the road, being able to see historical solar yield has
+        been very useful.
       </p>
       <p>
         By far the largest electricity consumer in the van is the refrigerator.
