@@ -184,7 +184,7 @@
         <video
           playsinline
           controls
-          src="/video/sprinter/overhead-light-upgrade.mp4"
+          src="https://paulstraw.s3.amazonaws.com/sprinter/overhead-light-upgrade.mp4"
           poster="/video/sprinter/overhead-light-upgrade.jpg"
         ></video>
         <figcaption>
@@ -227,7 +227,7 @@
         <video
           playsinline
           controls
-          src="/video/sprinter/homekit-lights.mp4"
+          src="https://paulstraw.s3.amazonaws.com/sprinter/homekit-lights.mp4"
           poster="/video/sprinter/homekit-lights.jpg"
         ></video>
         <figcaption>
@@ -403,7 +403,7 @@
         <video
           playsinline
           controls
-          src="/video/sprinter/fridge-latch.mp4"
+          src="https://paulstraw.s3.amazonaws.com/sprinter/fridge-latch.mp4"
           poster="/video/sprinter/fridge-latch.jpg"
         ></video>
         <figcaption>
@@ -470,7 +470,7 @@
           playsinline
           autoplay
           loop
-          src="/video/sprinter/family-portrait.mp4"
+          src="https://paulstraw.s3.amazonaws.com/sprinter/family-portrait.mp4"
           poster="/video/sprinter/family-portrait.jpg"
           title="Oops, I realized the reverse light should be white."
         ></video>
