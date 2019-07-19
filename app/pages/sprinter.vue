@@ -188,8 +188,7 @@
           poster="/video/sprinter/overhead-light-upgrade.jpg"
         ></video>
         <figcaption>
-          Installation footage from the overhead light fluorescent to LED
-          upgrade.
+          Install footage from the overhead light fluorescent » LED upgrade.
         </figcaption>
       </responsive-figure>
       <p>
@@ -246,6 +245,16 @@
         Charlene’s laptop can be charged with either USB-A (“normal” USB),
         USB-C, or proprietary 12 volt adapters.
       </p>
+      <responsive-figure position="left">
+        <img
+          src="/img/sprinter/charlene-and-dogs.jpg"
+          title="From left: Papers, Butters (ours), Ollie, Zippy (sister's)"
+        />
+        <figcaption>
+          Charlene sitting on the bed holding our two dogs and two of her
+          sister's.
+        </figcaption>
+      </responsive-figure>
       <p>
         The only things that permanently run off AC power are our refrigerator,
         my wife’s laptop charger, our TV, and an Apple TV.<sup
@@ -268,16 +277,6 @@
           ><a href="#fn12" id="fnref12">[12]</a></sup
         >
       </p>
-      <responsive-figure position="left">
-        <img
-          src="/img/sprinter/charlene-and-dogs.jpg"
-          title="From left: Papers, Butters (ours), Ollie, Zippy (sister's)"
-        />
-        <figcaption>
-          Charlene sitting on the bed holding our two dogs and two of her
-          sister's.
-        </figcaption>
-      </responsive-figure>
       <p>
         I highly recommend all of Victron’s equipment. In addition to the two
         inverters, we also use their

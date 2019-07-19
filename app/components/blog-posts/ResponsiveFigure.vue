@@ -202,11 +202,11 @@ export default {
   }
 
   .rf-left figure {
-    transform: translateX(-2vw);
+    transform: translateX(-2.5vw);
   }
 
   .rf-right figure {
-    transform: translateX(2vw);
+    transform: translateX(0.5vw);
   }
 }
 </style>
