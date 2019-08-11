@@ -88,7 +88,7 @@
         />
         <figcaption>
           Shooting a
-          <a href="https://www.youtube.com/watch?v=VfJl4B4B32Q"
+          <a href="https://www.youtube.com/watch?v=ZOHzqC2RfTc"
             >stop motion video</a
           >
           on the folding desk I added in front.
