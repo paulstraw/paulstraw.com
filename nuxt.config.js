@@ -3,7 +3,7 @@ require('dotenv').config()
 const fs = require('fs')
 const blogPostRoutes = fs
   .readdirSync('./app/static/blog-posts')
-  .map(filename => {
+  .map((filename) => {
     if (filename.indexOf('.md') === -1) {
       return null
     }
@@ -15,7 +15,7 @@ const blogPostRoutes = fs
       }),
     }
   })
-  .filter(n => !!n)
+  .filter((n) => !!n)
 
 module.exports = {
   srcDir: 'app/',
@@ -62,13 +62,13 @@ module.exports = {
   build: {
     vendor: [],
 
-    extend(config, { _isDev, _isClient }) {
+    extend(config) {
       // Exclude SVG loading from url loader
-      const urlLoader = config.module.rules.find(
-        rule => rule.loader === 'url-loader'
-      )
+      const imgLoader = config.module.rules.find((rule) => {
+        return rule.test.toString() === `/\\.(png|jpe?g|gif|svg|webp)$/i`
+      })
 
-      urlLoader.test = /\.(png|jpe?g|gif)$/
+      imgLoader.test = /\.(png|jpe?g|gif)$/
 
       config.module.rules.push({
         test: /\.svg$/,
