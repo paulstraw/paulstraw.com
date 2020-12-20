@@ -45,7 +45,7 @@
         </figcaption>
       </responsive-figure>
 
-      <p>At one point, we got a huge metal sign of the Octopus logo to hang in the office. I got the idea in my head that the sign would look much better with some custom LED lighting, because what doesn’t, right? I’d started playing with hardware via the Arduino ecosystem a couple years before, and felt like I’d learned enough to ship a usable product. So I said, “James [Hobbs, the founder of the company], I’m gonna buy some lights, and some microcontrollers, and I’m gonna light that sign up!” James approved the idea, and so I got started.</p>
+      <p>At one point, we got a huge metal sign of the Octopus logo to hang in the office. I got the idea in my head that the sign would look much better with some custom LED lighting, because what doesn’t, right? I’d started playing with hardware via the Arduino ecosystem a couple years before, and felt like I’d learned enough to ship a usable product. I approached the founder of Octopus, James Hobbs. “James,” I said, “I’m gonna buy some lights, and some microcontrollers, and I’m gonna light that sign up!” James approved, and so I got started.</p>
 
       <p>I dreamed up all sorts of features like a music visualizer that pulsed while we worked, custom patterns, manual color controls; the list went on. I actually got most of it working, but I was never totally happy with the mounting situation, or… I don’t know, I was just too precious about it.</p>
 
@@ -73,7 +73,7 @@
       <h2>Hardware Is Hard</h2>
 
       <p>
-        The MetaLab logo is a compass rose with 16 points, with an "M" in the center. I decided the new project would be a desk ornament of the logo, where the color of each point was controllable via Bluetooth and a mobile app.
+        The MetaLab logo is a compass rose with 16 points, and an "M" in the center. I decided the new project would be a desk ornament of the logo, where the color of each point was controllable via Bluetooth and a mobile app.
       </p>
 
       <p>Initially, I thought I would just model a case, and install pre-assembled <a href="https://www.adafruit.com/product/4356">NeoPixel WS2812B breakout boards</a> with hand wiring. Unfortunately, I ran into <a href="https://forums.adafruit.com/viewtopic.php?f=47&t=169830">all sorts of issues</a> with these boards. After many hours lost debugging, I decided it made more sense to learn PCB design (another skill I'd been putting off for years), and fix the problem at a lower level.</p>
@@ -84,7 +84,7 @@
 
       <p>For a single PCB design with surface mount part installation (in my case, LEDs, resistors, and capacitors), it cost about $50 USD, including shipping (for a minimum order of 5 PCBs). For a run of all four PCBs with assembly and shipping, it would cost around $100 USD. Considering that custom machined PCBs cost many thousands of dollars when I was a kid, I'm really blown away by what's possible now.</p>
 
-      <p>When JLC had questions about the design files I provided, they were quick to reach out via email with questions and confirm that everything was correct. My orders took around a week from the time I submitted them until when I had them in hand.</p>
+      <p>When JLC had questions about the design files I provided, they were quick to reach out via email with questions and confirm that everything was correct. My orders took around a week from the time I submitted them until I had them in hand.</p>
 
       <p>This project would have also been much more difficult without help from <a href="https://www.rockwellschrock.com/">Rockwell Schrock</a>. He was a huge helping hand throughout on the hardware design side, assisting me with lots of big questions and struggles.</p>
 
@@ -128,7 +128,7 @@
 
       <p>As I write this, I'm finishing up the last few prints before assembly and handoff to James. I received the final PCBs about a week and a half ago, and have been running a burn in test since the day I received them. For this testing, I had all four PCBs connected to each other, and turned the whole lamp on every day when I started work, and off at the end of each day (but without disconnecting from power entirely). Sometimes I would use the app throughout the day to swich presets, or unplug/replug the lamp to make sure the last settings were being saved correctly.</p>
 
-      <p>Everything had been going great, until last night (2020/12/18), when I turned the light back on after a period of inactivity. It flashed seemingly random colors, and no LEDs beyond the first few would illuminate correctly. Today, I tried again with the same results, and tried a second rear board that also had issues immediately when it was hooked up. The third of five rear PCBs did work successfully, however, and has been running a NeoPixel strand test all day successfully.</p>
+      <p>Everything had been going great, until last night, when I turned the light back on after a period of inactivity. It flashed seemingly random colors, and no LEDs beyond the first few would illuminate correctly. Today, I tried again with the same results, and tried a second rear board that also had issues immediately when it was hooked up. The third of five rear PCBs did work successfully, however, and has been running a NeoPixel strand test all day successfully.</p>
 
       <p>I tried the front and middle boards from that original assembly separately, and both of them still work great. At this point, I'm not sure whether these issues are something to do with the layout of the rear PCB, a manufacturing problem, or something else entirely.</p>
 
