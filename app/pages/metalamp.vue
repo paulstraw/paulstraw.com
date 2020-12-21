@@ -7,7 +7,7 @@
     <h1 class="post-title">MetaLamp</h1>
     <p class="post-date">
       Posted Sunday, December 20, 2020<br />
-      ~n minute read
+      ~10 minute read
     </p>
 
     <div class="post-content">
@@ -58,7 +58,7 @@
 
       <p>I dreamed up all sorts of features like a music visualizer that pulsed while we worked, custom patterns, manual color controls; the list went on. I actually got most of it working, but I was never totally happy with the mounting situation, or some other aspect. Basically, I was just too precious about it given my abilities at that point.</p>
 
-      <p>Time went on, and I ended up leaving Octopus to move to San Francisco. I kept working on the light, though, and eventually finished it. I was really excited to finally hand it off, and the timing was perfect, because I was just about to head to a conference some Octopus folks were attending. I packed the lights up, brought them along, and then completely forgot to hand them off during the conference. On arriving home, I proceeded to leave the lights in the rental car, never to be seen again.</p>
+      <p>Time went on, and I ended up leaving Octopus to move to San Francisco. I kept working on the light, though, and eventually finished it. I was really excited to finally hand it off. The timing was perfect, because I was just about to head to a conference some Octopus folks were attending. I packed the lights up, brought them along, and then completely forgot to hand them off during the conference. On arriving home, I proceeded to leave the lights in the rental car, never to be seen&nbsp;again.</p>
 
       <hr />
 
@@ -67,7 +67,7 @@
       <p>After losing the original Octopus lights, the lighting project kind of fell out of my mind. Octopus eventually shut down,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup
         > and <a href="/sprinter">I spent a couple years living in a van</a>. That wasn't exactly ideal for working on non-van-related electronics projects, though I did manage to make some pretty slick HomeKit-compatible lights!</p>
 
-      <p>After our travels in the van, Charlene and I decided to settle down in Portland, Oregon in early 2019. James had also ended up in Portland, so of course we ended up talking and meeting up. At this point, James had joined MetaLab as a Design Director (and shortly after that, promoted to VP of Design). We'd both been huge fans of MetaLab's work since before we'd even met, so I knew this was a huge deal for him.</p>
+      <p>After our travels in the van, Charlene and I decided to settle down in Portland, Oregon in early 2019. James had also ended up in Portland, so of course we ended up talking and meeting up. At this point, James had joined MetaLab as a Design Director (and shortly after that, promoted to VP of Design). We'd both been huge fans of MetaLab's work since before we'd even met, so I knew this was a big deal for him.</p>
 
       <responsive-figure position="right">
         <video
@@ -196,7 +196,7 @@
         </figcaption>
       </figure>
 
-      <p>An unexpected challenge in this project was getting "clean" transparent prints. The nozzle on my printer would often have small bits of colored filament stuck to it, which could become dislodged while printing the clear segments of the lamp and get stuck in the final print. This ruined a few otherwise great prints. The problem was exacerbated by a shortage of rubbing alcohol caused by COVID-19. I looked at several stores throughout the year and was unable to find isopropyl alcohol for more easily and thoroughly cleaning the nozzle.</p>
+      <p>An unexpected challenge in this project was getting "clean" transparent prints. The nozzle on my printer would often have small bits of colored filament stuck to it, which could become dislodged while printing the clear segments of the lamp and get stuck in the final print. This ruined a few otherwise great prints. The problem was exacerbated by a shortage of rubbing alcohol due to COVID-19. I looked at several stores throughout the year and was unable to find isopropyl alcohol for more easily and thoroughly cleaning the nozzle.</p>
 
       <responsive-figure position="right">
         <img
