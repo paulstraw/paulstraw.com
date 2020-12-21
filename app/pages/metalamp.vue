@@ -74,6 +74,7 @@
           playsinline
           autoplay
           loop
+          muted
           src="https://paulstraw.s3.amazonaws.com/metalamp/app-and-hardware.mp4"
           poster="/video/metalamp/app-and-hardware.jpg"
         ></video>
@@ -157,6 +158,7 @@
           autoplay
           loop
           controls
+          muted
           src="https://paulstraw.s3.amazonaws.com/metalamp/app-walkthrough.mp4"
           poster="/video/metalamp/app-walkthrough.png"
         ></video>
@@ -223,6 +225,7 @@
           playsinline
           autoplay
           loop
+          muted
           src="https://paulstraw.s3.amazonaws.com/metalamp/hilbert-curve.mp4"
           poster="/video/metalamp/hilbert-curve.png"
         ></video>
@@ -244,6 +247,7 @@
           playsinline
           autoplay
           loop
+          muted
           src="https://paulstraw.s3.amazonaws.com/metalamp/rainbow-loop.mp4"
           poster="/video/metalamp/rainbow-loop.jpg"
         ></video>
