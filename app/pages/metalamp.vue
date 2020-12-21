@@ -65,7 +65,7 @@
       <h2>MetaLab</h2>
 
       <p>After losing the original Octopus lights, the lighting project kind of fell out of my mind. Octopus eventually shut down,<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup
-        > and <a href="/sprinter">I spent a couple years living in a van</a>. That wasn't exactly ideal for working on non-van-related electronics projects, though I did manage to make some pretty slick HomeKit-compatible lights!</p>
+        > and <nuxt-link to="/sprinter">I spent a couple years living in a van</nuxt-link>. That wasn't exactly ideal for working on non-van-related electronics projects, though I did manage to make some pretty slick HomeKit-compatible lights!</p>
 
       <p>After our travels in the van, Charlene and I decided to settle down in Portland, Oregon in early 2019. James had also ended up in Portland, so of course we ended up talking and meeting up. At this point, James had joined MetaLab as a Design Director (and shortly after that, promoted to VP of Design). We'd both been huge fans of MetaLab's work since before we'd even met, so I knew this was a big deal for him.</p>
 
@@ -108,11 +108,11 @@
         </figcaption>
       </responsive-figure>
 
-      <p>Initially, I thought I would just model a case, and install pre-assembled <a href="https://www.adafruit.com/product/4356">NeoPixel WS2812B breakout boards</a> with hand wiring. Unfortunately, I ran into <a href="https://forums.adafruit.com/viewtopic.php?f=47&t=169830">all sorts of issues</a> with these boards. After many hours lost debugging, I decided it made more sense to learn PCB design (another skill I'd been putting off for years), and fix the problem at a lower level.</p>
+      <p>Initially, I thought I would just model a case, and install pre-assembled <a href="https://www.adafruit.com/product/4356" target="_blank">NeoPixel WS2812B breakout boards</a> with hand wiring. Unfortunately, I ran into <a href="https://forums.adafruit.com/viewtopic.php?f=47&t=169830" target="_blank">all sorts of issues</a> with these boards. After many hours lost debugging, I decided it made more sense to learn PCB design (another skill I'd been putting off for years), and fix the problem at a lower level.</p>
 
       <p>As you may have guessed, this left me with more problems than I'd started with in some ways. I had a total of four printed circuit boards to design and get manufactured, so I started with the front PCB (north, east, south, west). Based on my prior hand wiring tests, the front needed to have 24 LEDs to be evenly illumiated. I assumed that the connections between the boards on each layer of the logo wouldn't be a major issue, which has thankfully proven correct so far.</p>
 
-      <p>I ordered all the PCBs for this project from <a href="https://jlcpcb.com/">JLCPCB</a> in China. I was impressed by pretty much every aspect of that experience. As a newcomer, I really had no idea what to expect here. During this project, I placed three orders from them. Every time, they provided boards very quickly, at what I consider a super reasonable price.</p>
+      <p>I ordered all the PCBs for this project from <a href="https://jlcpcb.com/" target="_blank">JLCPCB</a> in China. I was impressed by pretty much every aspect of that experience. As a newcomer, I really had no idea what to expect here. During this project, I placed three orders from them. Every time, they provided boards very quickly, at what I consider a super reasonable price.</p>
 
       <responsive-figure position="right">
         <img
@@ -128,7 +128,7 @@
 
       <p>When JLC had questions about the design files I provided, they were quick to reach out via email with questions and confirm that everything was correct. My orders took around a week from the time I submitted them until I had them in hand.</p>
 
-      <p>This project would have also been much more difficult without help from <a href="https://www.rockwellschrock.com/">Rockwell Schrock</a>. He was a huge helping hand throughout on the hardware design side, assisting me with lots of big questions and struggles.</p>
+      <p>This project would have also been much more difficult without help from <a href="https://www.rockwellschrock.com/" target="_blank">Rockwell Schrock</a>. He was a huge helping hand throughout on the hardware design side, assisting me with lots of big questions and struggles.</p>
 
       <figure>
         <video
@@ -166,11 +166,11 @@
       </responsive-figure>
 
       <p>
-        At first, I was going to try to make a native <a href="https://learn.adafruit.com/introduction-to-bluetooth-low-energy">BLE</a> iOS app by following example code from Adafruit, though my experience is mostly in web development. I made some decent progress with this during the early part of the year. Around March, however, I ended up needing to learn React Native for some work projects, which turned out to be a great fit for MetaLamp as well.
+        At first, I was going to try to make a native <a href="https://learn.adafruit.com/introduction-to-bluetooth-low-energy" target="_blank">BLE</a> iOS app by following example code from Adafruit, though my experience is mostly in web development. I made some decent progress with this during the early part of the year. Around March, however, I ended up needing to learn React Native for some work projects, which turned out to be a great fit for MetaLamp as well.
       </p>
 
       <p>
-        I was able to put together a React Native application for iOS (James' platform of choice) in a couple weeks of nights and weekends, and get it talking to an <a href="https://www.adafruit.com/product/4062">Adafruit Feather nRF52840 Express</a> (In the "final" product, I switched to the smaller <a href="https://www.adafruit.com/product/4481">ItsyBitsy nRF52840 Express</a>). My familiarity with the software side of things proved useful, and at this point, I was feeling quite good about the project.
+        I was able to put together a React Native application for iOS (James' platform of choice) in a couple weeks of nights and weekends, and get it talking to an <a href="https://www.adafruit.com/product/4062" target="_blank">Adafruit Feather nRF52840 Express</a> (In the "final" product, I switched to the smaller <a href="https://www.adafruit.com/product/4481" target="_blank">ItsyBitsy nRF52840 Express</a>). My familiarity with the software side of things proved useful, and at this point, I was feeling quite good about the project.
       </p>
 
       <p>This was the first time I'd used MobX, and while it wasn't without its quirks, overall I was very impressed and happy with it for this simple use case. It's a more natural way to work with shared state in a reactive context than Redux, to my mind.</p>
