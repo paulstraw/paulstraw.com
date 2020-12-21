@@ -214,7 +214,7 @@
 
       <hr />
 
-      <h2>Retro</h2>
+      <h2>No, Really, Hardware Is Hard</h2>
 
       <p>As I write this, I'm finishing up the last few prints before assembly and handoff to James. I received the final PCBs about a week and a half ago, and have been running a burn in test since the day I received them. For this testing, I had all four PCBs connected to each other, and turned the whole lamp on every day when I started work, and off at the end of each day (but without disconnecting from power entirely). Sometimes I would use the app throughout the day to swich presets, or unplug/replug the lamp to make sure the last settings were being saved correctly.</p>
 
