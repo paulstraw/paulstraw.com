@@ -23,6 +23,7 @@
             height: `${project.logoHeight}px`
           }"
           class="col-16"
+          :class="project.extraClasses"
           v-html="require(`~/assets/svg/project-logos/${project.logoName}.svg`)"
         />
       </div>
@@ -127,6 +128,7 @@ a {
 
 >>> svg {
   overflow: visible;
+  max-width: 100%;
 }
 
 >>> .hover {

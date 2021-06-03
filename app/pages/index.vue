@@ -46,6 +46,15 @@ export default {
     return {
       projects: [
         {
+          title: `Booster's Big Neighborhood`,
+          logoName: 'boosters-big-neighborhood',
+          logoHeight: 140,
+          logoBackground: '#021034 url("/img/bbn-bg.png")',
+          url: 'https://boostersbigneighborhood.com',
+          description: `Multiplayer spaceflight minigame mayhem! Available now on iOS and Android devices.`,
+          extraClasses: 'mtn-1'
+        },
+        {
           title: `Design Kollective`,
           subtitle: `VP Engineering`,
           logoName: 'design-kollective',
