@@ -59,13 +59,24 @@ module.exports = {
 
   plugins: [{ src: '~/plugins/velocity', ssr: false }, '~/plugins/vue-filters'],
 
+  buildModules: [
+    '@nuxt/postcss8'
+  ],
+
   build: {
     vendor: [],
+
+    postcss: {
+      plugins: {
+        'postcss-aspect-ratio-polyfill': {}
+      },
+    },
 
     extend(config) {
       // Exclude SVG loading from url loader
       const imgLoader = config.module.rules.find((rule) => {
-        return rule.test.toString() === `/\\.(png|jpe?g|gif|svg|webp)$/i`
+        console.warn('fml', rule.test.toString())
+        return rule.test.toString() === `/\\.(png|jpe?g|gif|svg|webp|avif)$/i`
       })
 
       imgLoader.test = /\.(png|jpe?g|gif)$/

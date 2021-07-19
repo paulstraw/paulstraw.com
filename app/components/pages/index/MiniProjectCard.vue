@@ -11,7 +11,7 @@
       :href="project.url"
     >
       <div
-        class="project-card-logo-wrapper"
+        class="mini-project-card-logo-wrapper"
         :style="{
           background: project.logoBackground,
           backgroundSize: 'cover'
@@ -21,7 +21,7 @@
           :style="{
             height: project.logoHeight
           }"
-          class="col-16 project-card-logo-wrapper-inner"
+          class="col-16 mini-project-card-logo-wrapper-inner"
           :class="project.extraClasses"
           v-html="require(`~/assets/svg/project-logos/${project.logoName}.svg`)"
         />
@@ -42,7 +42,7 @@
 import waveHello from "~/mixins/waveHello"
 
 export default {
-  name: 'ProjectCard',
+  name: 'MiniProjectCard',
 
   mixins: [
     waveHello
@@ -66,14 +66,16 @@ export default {
     text-decoration: underline;
   }
 
-  .project-card-logo-wrapper {
-    width: 100%;
-    aspect-ratio: 4 / 3;
+  .mini-project-card-logo-wrapper {
+    width: 150px;
+    max-width: 35vw;
+    aspect-ratio: 1 / 1;
     position: relative;
-    border-radius: 80px;
+    border-radius: 40px;
+    margin: 0 auto;
   }
 
-  .project-card-logo-wrapper-inner {
+  .mini-project-card-logo-wrapper-inner {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -104,10 +106,16 @@ export default {
     transform-box: fill-box;
     transform-origin: center center;
   }
+
+  @media(min-width: 768px) {
+    .mini-project-card-logo-wrapper {
+      border-radius: 60px;
+    }
+  }
 </style>
 
 <style>
-.project-card-logo-wrapper svg {
+.mini-project-card-logo-wrapper svg {
   height: 100%;
   width: 100%;
 }

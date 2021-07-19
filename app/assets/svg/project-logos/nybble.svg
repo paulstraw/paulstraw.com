@@ -1,8 +1,0 @@
-<svg width="249" height="48" viewBox="0 0 249 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<path class="hover" d="M24 48V12H36V48H24ZM0 48V0H24V12H12V48H0Z" fill="black" fill-opacity="0.48"/>
-	<path class="hover" d="M57 48V24H69V48H57ZM45 24V0H57V24H45ZM69 24V0H81V24H69Z" fill="black" fill-opacity="0.48"/>
-	<path class="hover" d="M90 48V0H114V24H102V36H114V24H126V48H90Z" fill="black" fill-opacity="0.48"/>
-	<path class="hover" d="M135 48V0H159V24H147V36H159V24H171V48H135Z" fill="black" fill-opacity="0.48"/>
-	<path class="hover" d="M180 48V0H192V36H204V48H180Z" fill="black" fill-opacity="0.48"/>
-	<path class="hover" d="M213 48V0H249V12H225V24H237V36H249V48H213Z" fill="black" fill-opacity="0.48"/>
-</svg>
